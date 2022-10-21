@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Ecommerce Website</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"> -->
+    <link rel="stylesheet" href="assets/lib/exzoom/jquery.exzoom.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- tables=================================================== -->
+    <input type="radio" id="tab1" name="tab-control" checked>
+    <input type="radio" id="tab2" name="tab-control">
+    <input type="radio" id="tab3" name="tab-control">
+    <input type="radio" id="tab4" name="tab-control">
+
+    <!-- varation link modal============= -->
+    <input type="checkbox" id="variation-link">
+
+    <div class="mobile-sideMenu-overlay">
+        <div class="sideMenu">
+            <div class="sideMenu-content">
+                <div class="account-sideMenu-header">
+                    <span class="close-sideMenu-arrow"><i class='bx bx-right-arrow-alt'></i></span>
+                    <div class="sideMenu-profilePic">
+                        <div class="sideMenu-img-content"><img
+                                src="https://cdn-icons-png.flaticon.com/128/3011/3011270.png" alt="" srcset=""></div>
+                    </div>
+                    <span class="account-username">Wlcome</span>
+                    <button class="sideMenu-account-Login-btn">Login</button>
+                </div>
+                <div class="sideMenu-sideLinks">
+                    <ul class="links">
+                        <li class="link-item">
+
+                            <a href="#">
+                                <span class="sidemenu-icon"><i class='bx bx-shopping-bag'></i></span>
+                                orders
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+
+                        </li>
+                        <li class="link-item">
+
+                            <a href="#">
+                                <span class="sidemenu-icon"><i class='bx bx-message-square-dots'></i></span>
+                                orders
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+
+                        </li>
+                        <li class="link-item">
+
+                            <a href="#">
+                                <span class="sidemenu-icon"><i class='bx bx-heart'></i></span>
+                                saved items
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+
+                        </li>
+                        <li class="link-item">
+
+                            <a href="#">
+                                <span class="sidemenu-icon"><i class='bx bx-time-five'></i></span>
+                                Viewed items
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+
+                        </li>
+                        <li class="link-item">
+
+                            <a href="#">
+                                <span class="sidemenu-icon"><i class='bx bx-file-find'></i></span>
+                                recently searched
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+
+                        </li>
+
+
+                        <h3 class="sideMenu-heading">My settings</h3>
+
+                        <li class="link-item">
+                            <!-- <span class="sidemenu-icon"><i class='bx bx-file-find'></i></span> -->
+                            <a href="#">
+                                Details
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+
+                        </li>
+                        <li class="link-item">
+                            <!-- <span class="sidemenu-icon"><i class='bx bx-file-find'></i></span> -->
+                            <a href="#">
+                                Address book
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+
+                        </li>
+                        <li class="link-item">
+                            <!-- <span class="sidemenu-icon"><i class='bx bx-file-find'></i></span> -->
+                            <a href="#">
+                                <span class="sidemenu-icon"><i class='bx bx-lock-alt'></i></span>
+                                change password
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+
+                        </li>
+                        <li class="link-item">
+
+                            <a href="#">
+                                <span class="sidemenu-icon"><i class='bx bx-user-x'></i></span>
+                                close account
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+
+                        </li>
+                        <li class="link-item">
+                            <a href="#">
+                                <span class="sidemenu-icon"><img src="assets/images/color-palette.png" alt=""
+                                        srcset=""></span>
+                                change theme
+                                <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                            </a>
+                        </li>
+                        <!-- <li class="account-pic">
+                            <span class="sidemenu-icon"><i class='bx bx-file-find'></i></span>
+                            <a href="#">Username</a>
+                            <span class="arrow"><i class='bx bx-chevron-right'></i></span>
+                        </li> -->
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="banner"><img src="assets/images/banner.gif" alt="" srcset=""></div>
+    <div class="bartop1">
+        <div class="bartop-wrapper">
+            <div class="left">
+                <span><a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                </span>
+                <span><a href="#"><i class='bx bxl-google'></i></a></span>
+                <span><a href="#"><i class='bx bxl-linkedin'></i></a></span>
+                <span><a href="#"><i class='bx bxl-twitter'></i></a>
+                </span>
+            </div> <!-- bartop1 left ends-->
+
+            <div class="right">
+                <div class="currency">
+                    <a href="#">currency <i class='bx bx-chevron-down'></i></a>
+                    <div class="currency-menu">
+                        <a href="#">UGX</a>
+                        <a href="#">KSHS</a>
+                        <a href="#">TSHS</a>
+                        <a href="#">Mafaranga</a>
+                        <a href="#">Dollar</a>
+                    </div>
+                </div><!-- currency converter ends-->
+                <div class="language">
+                    <a href="#">language <i class='bx bx-chevron-down'></i></a>
+                    <div class="language-menu">
+                        <a href="#">English</a>
+                        <a href="#">Luganda</a>
+                        <a href="#">Kiswahili</a>
+                        <a href="#">Runyakitara</a>
+                        <a href="#">French</a>
+                    </div>
+                </div><!-- language ends-->
+            </div> <!-- bartop1 right ends-->
+        </div>
+
+    </div> <!-- end of bartop1 ends-->
+    <header class="navbar">
+        <div class="header-wrapper">
+            <a href="index.html" class="logo"><img src="assets/images/logo4.PNG" alt="" srcset=""></a>
+            <form action="#" class="searchForm">
+                <div class="searchCategory">Search Category <i class="bx bx-chevron-down"></i>
+                    <div class="searchCategorymenu">
+                        <!-- <a href="#"><i class='bx bx-bulb'></i>Accessories</a> -->
+                        <a href="#"><img src="assets/images/smartwatch.png" alt="" srcset=""> Accessories</a>
+                        <!-- <a href="#"><i class='bx bx-lemon'></i>Groceries</a> -->
+                        <!-- <a href="#"><img src="assets/images/apple.png" alt="" srcset=""> Groceries</a> -->
+                        <a href="#"><img src="assets/images/apple.png" alt="" srcset=""> Groceries</a>
+                        <!-- <a href="#"><i class='bx bx-desktop'></i>Computing</a> -->
+                        <a href="#"><img src="assets/images/monitor.png" alt="" srcset=""> Computing</a>
+                        <a href="#"><img src="assets/images/mobile-app.png" alt="" srcset=""> Phones &amp; Tablets</a>
+                        <!-- <a href="#"><i class='bx bx-phone'></i>Phones &amp; Tablets</a> -->
+                        <a href="#"><img src="assets/images/tshirt.png" alt="" srcset=""> Fashion</a>
+                        <!-- <a href="#"><i class='bx bxs-t-shirt'></i>Fashion</a> -->
+
+                    </div><!-- search-category ends-->
+                </div>
+                <input type="search" class="searchField" placeholder="Search items, Categories .....">
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+
+
+            <ul class="LinksRight">
+                <li class="account">
+                    <a href="#"><i class='bx bx-user icon'></i>Account<i class='bx bx-chevron-down arrow'></i></a>
+                    <ul class="account-menu">
+                        <h3 class="menu-header">Welcome back!</h3>
+                        <ul class="menu-top">
+                            <li class="signin"><a href="#"><i class='bx bx-user icon'></i>Sign
+                                    in</a>
+                            </li>
+                            <li class="signup"><a href="#"><i class='bx bx-user icon'></i>create account</a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li class="separator">or</li>
+                            <li class="sign-with">Signin with</li>
+                            <li class="social-media-signin">
+                                <span><a href="#"><img src="assets/images/facebook-circled.png" alt="" srcset=""></a>
+                                </span>
+                                <span><a href="#"><img src="assets/images/google.png" alt="" srcset=""></a></span>
+                                <span><a href="#"><img src="assets/images/linkedin-circle.png" alt=""
+                                            srcset=""></a></span>
+                                <span><a href="#"><img src="assets/images/twitter-circled.png" alt="" srcset=""></a>
+                                </span>
+                            </li>
+                        </ul>
+                        <ul class="menu-bottom">
+                            <li class="#"><a href="#"><i class='bx bx-user icon'></i>My Account</a></li>
+                            <li><a href="#"><i class='bx bx-gift icon'></i>Orders</a></li>
+                            <li><a href="#"><i class='bx bx-heart icon'></i>saved Items</a></li>
+                            <!-- <li><a href="#"><i class='bx bx-heart icon'></i>Your orders</a></li> -->
+                        </ul>
+
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#"><i class='bx bx-help-circle icon'></i>Help<i class='bx bx-chevron-down arrow'></i></a>
+
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class='bx bx-cart icon'></i>Cart
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+
+    <section class="main">
+
+        <div class="product-details-container">
+            <div class="product-details-left">
+                <div class="product-details-content-left">
+                    <div class="left">
+                        <div class="exzoom " id="exzoom">
+                            <div class="exzoom_img_box">
+                                <ul class="exzoom_img_ul">
+                                    <li><img src="assets/images/headsets.webp" /></li>
+                                    <li><img src="assets/images/hd_pro_webcam.jpg" /></li>
+                                    <li><img src="assets/images/iphone_12.jpg" /></li>
+                                    <li><img src="assets/images/laptop.jpg" /></li>
+                                    <li><img src="assets/images/pods.jpg" /></li>
+                                </ul>
+                            </div>
+                            <div class="exzoom_nav"></div>
+                            <!-- Nav Buttons -->
+                            <p class="exzoom_btn">
+                                <a href="javascript:void(0);" class="exzoom_prev_btn"><i
+                                        class='bx bx-chevron-left'></i></a>
+                                <a href="javascript:void(0);" class="exzoom_next_btn"> <i
+                                        class='bx bx-chevron-right'></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="content">
+                            <div class="content-top">
+                                <span class="storeName">Official store</span>
+                                <div class="product-detaisl-product-name">
+                                    <h3>Pixel 40 Inch Android Smart TV – Black</h3>
+                                </div>
+                                <div class="brand"><span class="name">Beats</span>
+                                    <span class="similar-products"><a href="#">(Similar products)</a></span>
+                                </div>
+                                <div class="product-details-rating">
+                                    <div class="star">
+                                        <span>&bigstar;</span>
+                                        <span>&bigstar;</span>
+                                        <span>&bigstar;</span>
+                                        <span>&star;</span>
+                                        <span>&star;</span>
+                                    </div>
+                                    <span>
+                                        <a href="#" class="user-rating">10 verified rating</a>
+                                    </span>
+                                </div>
+                                <!-- <div class="line"></div> -->
+                                <div class="product-detaisl-price">UGX 180,000</div>
+                                <div class="product-details-variation">
+                                    <div class="heading">
+                                        <span class="variation">Variables available</span>
+                                        <label for="variation-link" class="variation-link"><a href="#"></a> size
+                                            guide</label>
+                                        <div class="sizeguide-modal">
+                                            <div class="sizeguide-modal-content">
+                                                <label for="variation-link"
+                                                    class="close-variation-modal">&times;</label>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="variation-content">
+                                        <label for="variation-link" class="variation-link-size">S</label>
+                                        <label for="variation-link" class="variation-link-size">M</label>
+                                        <label for="variation-link" class="variation-link-size">L</label>
+                                        <label for="variation-link" class="variation-link-size">XL</label>
+                                        <label for="variation-link" class="variation-link-size">XXL</label>
+                                    </div>
+                                </div>
+                                <button class="add-to-cart">Add to cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="product-additional-details">
+                    <div id="container" class="tabs">
+
+                        <input id="tab-1" type="radio" name="tab-group" checked="checked" />
+                        <label for="tab-1">Description</label>
+
+                        <input id="tab-2" type="radio" name="tab-group" />
+                        <label for="tab-2">Specifications</label>
+
+                        <input id="tab-3" type="radio" name="tab-group" />
+                        <label for="tab-3">Reviews</label>
+
+                        <div id="content">
+
+                            <div id="content-1" class="tab-content">
+                                <p>
+                                    Designed by Hans J. Wegner in 1949 as one of the first models created especially for
+                                    Carl Hansen & Son, and produced
+                                    since 1950. The last of a series of chairs wegner designed based on inspiration from
+                                    antique Chinese armchairs. The
+                                    gently rounded top together with the back and seat offers a variety of comfortable
+                                    seating positions,ideal for both long
+                                    visits to the dining table and relaxed lounging.
+                                    The standard passage, used since the 1500s.
+
+                                    A light chair, easy to move around the dining table and about the room. Duis aute
+                                    irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit
+                                    amet conse ctetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet conse
+                                    ctetur adipisicing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                            <!--Contenido de la Pestaña 2-->
+                            <div id="content-2" class="tab-content">
+                                <p class="key-features">
+                                <h1>Key features</h1>
+                                <p class="content">
+                                    Colour: Blue
+                                    Material: Cotton
+                                    Sleeve Type: Long Sleeve
+                                    Neck Type: Round Neck
+                                    Closure: Button
+                                    Comes with the Trouse
+                                </p>
+                                </p>
+                                <p class="Specifications">
+                                <h1>Specifications</h1>
+                                <p class="content">
+                                    SKU: GE779MW09MONFNAFAMZ
+                                    Product Line: African Suits
+                                    Model: New
+                                    Weight (kg): 0.5
+                                    Color: Blue
+                                    Shop Type: Jumia Mall
+                                </p>
+                                </p>
+                                <p class="box-items">
+                                <h1>Items shipped</h1>
+                                <p class="content">
+                                    African Senetor shirt and Trouser
+                                </p>
+                                </p>
+                            </div>
+                            <!--Contenido de la Pestaña 3-->
+                            <div id="content-3" class="tab-content">
+                                <h1>Product reviews</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dignissimos ipsam
+                                    iusto nihil asperiores corrupti tempora dolore totam praesentium neque debitis,
+                                    nostrum molestias omnis eius ex. Dolor dolore praesentium eum!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- product-additional-details ends============ -->
+
+                <div class="related-products">
+
+                    <div class="related-product-container">
+                        <div class="related-product-buttons" id="#custom-related-product-control">
+                            <div id="prev"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                            </div>
+                            <div id="next"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="related-product-content">
+                            <div class="single-item">
+                                <a href="#">
+                                    <div class="single-item-lables">
+                                        <span class="discount">-35%</span>
+                                        <span class="special">Hot</span>
+                                    </div>
+
+                                    <img src="assets/images/pods.jpg" alt="" srcset="">
+                                    <div class="details">
+                                        <p class="description">AirPods Pro with Wireless Charging Case</p>
+                                        <p class="price"> UGX 388,000</p>
+                                        <div class="original-price">UGX 500,000</div>
+                                        <div class="rating">
+                                            <div class="star">
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&star;</p>
+                                                <p>&star;</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-solid-progress">
+                                            <div class="progress">
+                                                <div class="progress-inner"></div>
+                                            </div>
+                                            <div class="sold_available">
+                                                <span class="sold">
+                                                    <p class="title">Sold:&nbsp;</p>
+                                                    <p class="number">85</p>
+                                                </span>
+                                                <span class="available">
+                                                    <p class="title">Available:&nbsp;</p>
+                                                    <p class="number">125</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <button class="item-buy-btn">add to cart</button>
+                                    </div>
+
+                                </a>
+                            </div><!-- single item ends============== -->
+                            <div class="single-item">
+                                <a href="#">
+                                    <div class="single-item-lables">
+                                        <span class="discount">-35%</span>
+                                        <span class="special">Hot</span>
+                                    </div>
+
+                                    <img src="assets/images/pods.jpg" alt="" srcset="">
+                                    <div class="details">
+                                        <p class="description">AirPods Pro with Wireless Charging Case</p>
+                                        <p class="price"> UGX 388,000</p>
+                                        <div class="original-price">UGX 500,000</div>
+                                        <div class="rating">
+                                            <div class="star">
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&star;</p>
+                                                <p>&star;</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-solid-progress">
+                                            <div class="progress">
+                                                <div class="progress-inner"></div>
+                                            </div>
+                                            <div class="sold_available">
+                                                <span class="sold">
+                                                    <p class="title">Sold:&nbsp;</p>
+                                                    <p class="number">85</p>
+                                                </span>
+                                                <span class="available">
+                                                    <p class="title">Available:&nbsp;</p>
+                                                    <p class="number">125</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <button class="item-buy-btn">add to cart</button>
+                                    </div>
+
+                                </a>
+                            </div><!-- single item ends============== -->
+                            <div class="single-item">
+                                <a href="#">
+                                    <div class="single-item-lables">
+                                        <span class="discount">-35%</span>
+                                        <span class="special">Hot</span>
+                                    </div>
+
+                                    <img src="assets/images/pods.jpg" alt="" srcset="">
+                                    <div class="details">
+                                        <p class="description">AirPods Pro with Wireless Charging Case</p>
+                                        <p class="price"> UGX 388,000</p>
+                                        <div class="original-price">UGX 500,000</div>
+                                        <div class="rating">
+                                            <div class="star">
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&star;</p>
+                                                <p>&star;</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-solid-progress">
+                                            <div class="progress">
+                                                <div class="progress-inner"></div>
+                                            </div>
+                                            <div class="sold_available">
+                                                <span class="sold">
+                                                    <p class="title">Sold:&nbsp;</p>
+                                                    <p class="number">85</p>
+                                                </span>
+                                                <span class="available">
+                                                    <p class="title">Available:&nbsp;</p>
+                                                    <p class="number">125</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <button class="item-buy-btn">add to cart</button>
+                                    </div>
+
+                                </a>
+                            </div><!-- single item ends============== -->
+                            <div class="single-item">
+                                <a href="#">
+                                    <div class="single-item-lables">
+                                        <span class="discount">-35%</span>
+                                        <span class="special">Hot</span>
+                                    </div>
+
+                                    <img src="assets/images/pods.jpg" alt="" srcset="">
+                                    <div class="details">
+                                        <p class="description">AirPods Pro with Wireless Charging Case</p>
+                                        <p class="price"> UGX 388,000</p>
+                                        <div class="original-price">UGX 500,000</div>
+                                        <div class="rating">
+                                            <div class="star">
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&star;</p>
+                                                <p>&star;</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-solid-progress">
+                                            <div class="progress">
+                                                <div class="progress-inner"></div>
+                                            </div>
+                                            <div class="sold_available">
+                                                <span class="sold">
+                                                    <p class="title">Sold:&nbsp;</p>
+                                                    <p class="number">85</p>
+                                                </span>
+                                                <span class="available">
+                                                    <p class="title">Available:&nbsp;</p>
+                                                    <p class="number">125</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <button class="item-buy-btn">add to cart</button>
+                                    </div>
+
+                                </a>
+                            </div><!-- single item ends============== -->
+                            <div class="single-item">
+                                <a href="#">
+                                    <div class="single-item-lables">
+                                        <span class="discount">-35%</span>
+                                        <span class="special">Hot</span>
+                                    </div>
+
+                                    <img src="assets/images/pods.jpg" alt="" srcset="">
+                                    <div class="details">
+                                        <p class="description">AirPods Pro with Wireless Charging Case</p>
+                                        <p class="price"> UGX 388,000</p>
+                                        <div class="original-price">UGX 500,000</div>
+                                        <div class="rating">
+                                            <div class="star">
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&bigstar;</p>
+                                                <p>&star;</p>
+                                                <p>&star;</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-solid-progress">
+                                            <div class="progress">
+                                                <div class="progress-inner"></div>
+                                            </div>
+                                            <div class="sold_available">
+                                                <span class="sold">
+                                                    <p class="title">Sold:&nbsp;</p>
+                                                    <p class="number">85</p>
+                                                </span>
+                                                <span class="available">
+                                                    <p class="title">Available:&nbsp;</p>
+                                                    <p class="number">125</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <button class="item-buy-btn">add to cart</button>
+                                    </div>
+
+                                </a>
+                            </div><!-- single item ends============== -->
+
+                        </div><!-- related-product-container ends============== -->
+
+                    </div>
+
+                </div><!-- related-products ends============ -->
+
+            </div><!-- product-details-left============ -->
+            <div class="product-details-right">
+                <h3 class="heading">SOME CONTENT HERE</h3>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script>
+
+
+
+        var relatedProductSlider = tns({
+            container: '.related-product-content',
+            items: 4,
+            slideBy: 'page',
+            autoplay: true,
+            nav: true,
+            controlsPosition: "bottom",
+            navPosition: "bottom",
+            autoplayHoverPause: true,
+            autoplayButtonOutput: false,
+            controlsContainer: ".related-product-buttons",
+        });
+    </script>
+
+    </script>
+    <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/lib/exzoom/jquery.exzoom.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+
+    <script>
+        $(function () {
+
+            $("#exzoom").exzoom({
+
+                // thumbnail nav options
+                "navWidth": 55,
+                "navHeight": 60,
+                "navItemNum": 4,
+                "navItemMargin": 0,
+                "navBorder": 0,
+
+                // autoplay
+                "autoPlay": false,
+
+                // autoplay interval in milliseconds
+                "autoPlayTimeout": 2000
+
+            });
+
+        });
+    </script>
+
+    <div class="mobile-bottom-menu">
+
+    </div>
+
+    <section class="footer">
+        <div class="footer-top-row">
+            <div class="footer-wrapper">
+                <div class="top-row-content">
+                    <div class="footer-top_left">
+                        <div class="content"><img src="assets/images/logo4.PNG" alt="" srcset=""></div>
+                    </div>
+                    <!-- </div> -->
+
+                    <div class="footer-top-row_middle">
+                        <div class="content">
+                            <div class="heading">New to UBuyee?</div>
+                            <p>Subscribe to our newsletter to get updates on our latest offers!</p>
+                            <form action="" class="footer-form">
+                                <div class="input-field">
+                                    <svg class="mail-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d=" M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0
+                                                                                                                                                            4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z">
+                                        </path>
+                                    </svg>
+                                    <input type="email" placeholder="Enter E-mail Address" id="">
+
+                                </div>
+                                <div class="footer-form-buttons">
+                                    <a href="#" class="footer-form-button">Subscribe</a>
+                                    <!-- <a href="#" class="footer-form-button">Female</a> -->
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="footer-top-row_right">
+                        <div class="small-logo-text">
+                            <div class="small-logo">
+                                <!-- <span class="logo-star-content">
+                                    <i class='bx bxs-star'></i>
+                                </span> -->
+                                <img src="assets/images/favicon.png" alt="" srcset="">
+                            </div>
+                            <div class="text">
+                                <div class="top-text heading">DOWNLOAD UBuyee FREE APP</div>
+                                <div class="bottom-text">
+                                    <p>Get access to exclusive offers!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="download-buttons">
+                            <div class="apple"> <a href="#"><img src="assets/images/app-store.png" alt=""></a></div>
+                            <div class="play-store"> <a href="#"><img src="assets/images/playStore.png" alt=""
+                                        srcset=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <div class="footer-middle-row">
+                <div class="content">
+                    <div class="column">
+                        <div class="heading">LET US HELP YOU</div>
+                        <div class="links">
+                            <a href="#">Help Center</a>
+                            <a href="#">Contact us</a>
+                            <a href="#">How to buy on UBuyee</a>
+                            <a href="#">Payment Methods</a>
+                            <a href="#">Delivery</a>
+                            <a href="#">Delivery Timelines</a>
+                            <a href="#">Return Policy</a>
+                            <a href="#">Report a Product</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="heading">ABOUT UBuyee UGANDA</div>
+                        <div class="links">
+                            <a href="#">About us</a>
+                            <a href="#">UBuyee Careers</a>
+                            <a href="#">IPR Protection Policy</a>
+                            <a href="#">Terms and Conditions</a>
+                            <a href="#">Dispute Resolution Policy</a>
+                            <a href="#">Privacy policy</a>
+                            <a href="#">Cookie Notice</a>
+                            <a href="#">Flash Sales</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="heading">MAKE MONEY WITH US</div>
+                        <div class="links">
+                            <a href="#">Sell on UBuyee</a>
+                            <a href="#">Become a Sales Consultant</a>
+                            <a href="#">Become a Logistics Service Partner</a>
+                            <a href="#">Become a UBuyee Delivery Agent</a>
+                            <a href="#">UBuyee B2B</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="heading">UBuyee INTERNATIONAL</div>
+                        <div class="links">
+                            <div class="country-list">
+                                <div class="left">
+                                    <a href="#">Algerie</a>
+                                    <a href="#">Côte d'Ivoire</a>
+                                    <a href="#">Egypt</a>
+                                    <a href="#">Ghana</a>
+                                    <a href="#">Kenya</a>
+                                </div>
+                                <div class="right">
+                                    <a href="#">Maroc</a>
+                                    <a href="#">Nigeria</a>
+                                    <a href="#">Senegal</a>
+                                    <a href="#">Tunisia</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-row">
+                <div class="footer-bottom-row_top">
+                    <div class="column">
+                        <div class="heading">Follow Us</div>
+                        <div class="media-icons left">
+                            <span class="media-icon">
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                            </span>
+
+                            <span class="media-icon">
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
+                            </span>
+                            <span class="media-icon">
+                                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                            </span>
+                            <span class="media-icon">
+                                <a href="#"><i class='bx bxl-youtube'></i></a>
+                            </span>
+                            <span class="media-icon">
+                                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="heading">Payment Methods</div>
+                        <div class="media-icons right">
+
+                            <span class="media-icon">
+                                <a href="#"><img class="icon" src="assets/images/cash-on-delivery.png" alt=""
+                                        srcset=""></a>
+                            </span>
+                            <span class="media-icon">
+                                <a href="#"><img class="icon" src="assets/images/mtn-mobile.svg" alt="" srcset=""></a>
+                            </span>
+                            <span class="media-icon">
+                                <a href=""><img class="icon" src="assets/images/airtel-logo.svg" alt="" srcset=""></a>
+                            </span>
+                            <span class="media-icon">
+                                <a href="#"><i class='bx bxl-mastercard'></i></a>
+                            </span>
+                            <span class="media-icon">
+                                <a href="#"><i class='bx bxl-visa'></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom-row_bottom">
+                    <div class="content">
+                        <div class="column">
+                            <div class="links">
+                                <a href="#">Acer</a>
+                                <a href="#">Apple</a>
+                                <a href="#">Asus</a>
+                                <a href="#">Canon</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="links">
+                                <a href="#">Changhong</a>
+                                <a href="#">Coca-Cola</a>
+                                <a href="#">DELL</a>
+                                <a href="#">Fanta</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="links">
+                                <a href="#">Global Star</a>
+                                <a href="#">Hisense</a>
+                                <a href="#">Hp</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="links">
+                                <a href="#">Huawei</a>
+                                <a href="#">Infinix</a>
+                                <a href="#">Itel</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="links">
+                                <a href="#">Jbl</a>
+                                <a href="#">Lenovo</a>
+                                <a href="#">LG</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="links">
+                                <a href="#">Nokia</a>
+                                <a href="#">Oppo</a>
+                                <a href="#">Redmi</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="links">
+                                <a href="#">Saachi</a>
+                                <a href="#">Samsung</a>
+                                <a href="#">Sony</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="links">
+                                <a href="#">Tecno</a>
+                                <a href="#">Toshiba</a>
+                                <a href="#">XIAOMI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+</body>
+
+</html>
