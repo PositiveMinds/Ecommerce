@@ -1241,7 +1241,7 @@ header .logo img {
   display: grid;
   place-items: center;
   backdrop-filter: blur(3px);
-  display: none;
+  /* display: none; */
 }
 #modalOverlay .close-popup-modal {
   position: absolute;
@@ -1781,7 +1781,6 @@ header .logo img {
   -moz-transition: var(--transition);
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
-  
 }
 
 .account-sideMenu-header {
