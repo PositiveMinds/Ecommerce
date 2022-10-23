@@ -398,8 +398,8 @@ header .logo img {
   border-radius: 0.3rem;
   top: 3rem;
   right: -5rem;
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
   transition: var(--transition);
   -webkit-transition: var(--transition);
   -moz-transition: var(--transition);
